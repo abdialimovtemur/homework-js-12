@@ -60,19 +60,19 @@
 // 4. Stringdagi so’zlarning bosh harflarini oling. (split, map, join). Input: 'George Raymond Richard Martin'. Output: 'GRRM' 
 
 
-let userStr = prompt("Gapni kiriting")
+// let userStr = prompt("Gapni kiriting")
 
-function strLength() {
-    let arr = userStr.split(" ");
-    let newArr = [];
+// function strLength() {
+//     let arr = userStr.split(" ");
+//     let newArr = [];
 
-    arr.forEach(element => {
-        newArr.push(element.charAt(0))
-    })
-    console.log(newArr.join(''));
+//     arr.forEach(element => {
+//         newArr.push(element.charAt(0))
+//     })
+//     console.log(newArr.join(''));
 
-}
-strLength()
+// }
+// strLength()
 
 
 
