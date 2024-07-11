@@ -67,8 +67,7 @@
 //     let newArr = [];
 
 //     arr.forEach(element => {
-//         console.log(userStr.indexOf(0))
-//         // newArr.push(element.length)
+//         newArr.push(element.charAt(0))
 //     })
 //     console.log(newArr);
 
@@ -146,21 +145,21 @@
 
 
 
-function objKeyValueToArr(params) {
-    let newArr = []
+// function objKeyValueToArr(params) {
+//     let newArr = []
 
-    const object1 = {
-        a: 'Temurbek',
-        b: 'Abdialimov',
-        c: 20,
-        d: 'Kashkadarya'
-    };
+//     const object1 = {
+//         a: 'Temurbek',
+//         b: 'Abdialimov',
+//         c: 20,
+//         d: 'Kashkadarya'
+//     };
 
-    for (const [key, value] of Object.entries(object1)) {
-        newArr.push(key+value)
+//     for (const [key, value] of Object.entries(object1)) {
+//         newArr.push(key+value)
 
-    }
-    console.log(newArr)
-}
+//     }
+//     console.log(newArr)
+// }
 
-objKeyValueToArr()
+// objKeyValueToArr()
