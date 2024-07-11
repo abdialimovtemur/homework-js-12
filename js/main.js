@@ -152,10 +152,11 @@ function objKeyValueToArr(params) {
     const object1 = {
         a: 'Temurbek',
         b: 'Abdialimov',
+        c: 20,
+        d: 'Kashkadarya'
     };
 
     for (const [key, value] of Object.entries(object1)) {
-        console.log(`${key}: ${value}`);
         newArr.push(key+value)
 
     }
