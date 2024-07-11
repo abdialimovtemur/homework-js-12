@@ -146,16 +146,20 @@
 
 
 
-function objKeyValueToArr(params){ 
-    
-const object1 = {
-    a: 'Temurbek',
-    b: 'Abdialimov',
-};
+function objKeyValueToArr(params) {
+    let newArr = []
 
-for (const [key, value] of Object.entries(object1)) {
-    console.log(`${key}: ${value}`);
+    const object1 = {
+        a: 'Temurbek',
+        b: 'Abdialimov',
+    };
 
+    for (const [key, value] of Object.entries(object1)) {
+        console.log(`${key}: ${value}`);
+        newArr.push(key+value)
 
+    }
+    console.log(newArr)
 }
-{
+
+objKeyValueToArr()
